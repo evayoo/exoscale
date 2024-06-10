@@ -70,11 +70,11 @@ exoscale/
 
 ### Creating an Instance
 
-The script creates a new instance with the specified configuration. Update the `script.py` file with your desired instance name, type, template, SSH keys, and security group rules.
+You can create a new instance with the specified configuration. Sign in to Exoscale, and create an API key and store the access & secret access keys for your work. Update the `create-instance.py`,  `delete-instance.py` file with api_key and api_secret. Then run the Python code to create an instance. 
 
 ### Managing SSH Keys
 
-The script lists existing SSH keys and uses a specified key for instance creation.
+The `create-instance.py` lists existing SSH key and uses a specified key for instance creation.
 
 ### Configuring Security Groups
 
