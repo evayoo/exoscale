@@ -39,12 +39,20 @@ API_KEY=your_api_key_here
 API_SECRET=your_api_secret_here
 ```
 
-### 5. Running the Script
+### 5. Running the create-instance.py
 
-Execute the Python script to interact with the Exoscale API:
+Execute the Python script to create the Exoscale API:
 
 ```sh
-python script.py
+python create-instance.py
+```
+
+### 6. Running the delete-instance.py
+
+Execute the Python script to delete the Exoscale API:
+
+```sh
+python delete-instance.py
 ```
 
 ## Project Structure
